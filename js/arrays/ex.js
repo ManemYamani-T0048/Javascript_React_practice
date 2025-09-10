@@ -1,0 +1,9 @@
+function arrayFromRange(min,max){
+    const arr=[];
+    for(let i=min;i<=max;i++){
+        arr.push(i);
+    }
+    return arr;
+}
+const numbers=arrayFromRange(1,8);
+console.log(numbers);
